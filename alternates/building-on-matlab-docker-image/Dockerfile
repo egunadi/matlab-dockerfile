@@ -5,7 +5,7 @@
 ARG MATLAB_RELEASE=R2024b
 
 # Specify the extra products to install into the image. These products can either be toolboxes or support packages.
-ARG ADDITIONAL_PRODUCTS="Symbolic_Math_Toolbox Deep_Learning_Toolbox_Model_for_ResNet-50_Network"
+ARG ADDITIONAL_PRODUCTS="Symbolic_Math_Toolbox Deep_Learning_Toolbox_Model_for_ResNet-50_Network Image_Processing_Toolbox Curve_Fitting_Toolbox Signal_Processing_Toolbox"
 
 # This Dockerfile builds on the Ubuntu-based mathworks/matlab image.
 # To check the available matlab images, see: https://hub.docker.com/r/mathworks/matlab
